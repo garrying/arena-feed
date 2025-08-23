@@ -6,7 +6,24 @@
   "author": "Garry Ing <hello@garrying.com>",
   "type": "module",
   "main": "index.js",
+  "homepage": "https://github.com/garrying/arena-feed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrying/arena-feed.git"
+  },
+  "keywords": [
+    "arena",
+    "are.na",
+    "api",
+    "feed"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0"
   }
 }
