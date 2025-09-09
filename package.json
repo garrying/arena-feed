@@ -27,8 +27,5 @@
   },
   "scripts": {
     "test": "node test.js"
-  },
-  "devDependencies": {
-    "assert": "^2.0.0"
   }
 }
